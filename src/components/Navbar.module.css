@@ -1,43 +1,54 @@
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items:center;
-    background-color:#0F1111;
-    color:white;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0f1111;
+  color: white;
 }
 
-.inputBar{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
+.inputBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-input{
-    height:2rem;
-    width:20rem;
-    border-radius: 0.2rem;
-    display: inline;
-    border:none;
-    outline:none;
+input {
+  height: 2rem;
+  width: 25rem;
+  border-radius: 0.2rem;
+  display: inline;
+  border: none;
+  outline: none;
 }
 
-.leftItems{
-    width:50%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items:center;
-}
-.leftItem{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:center;
+.button {
+  background-color: #FFD36E;
+  height:2.3rem;
+  width: 3rem;
+  border-radius:0.5rem;
 }
 
-img{
-    height: 4rem;
-    width: 8rem;
+.button:hover{
+    cursor:pointer;
+}
+
+.leftItems {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  height: 4rem;
+  width: 8rem;
 }

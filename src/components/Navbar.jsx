@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCartShopping,
+  faMagnifyingGlass,
+} from "@fortawesome/free-solid-svg-icons";
 import amazonLongLogo from "../assests/amazon-long-logo-white-removebg-preview.png";
 import Button from "./Button";
 const Navbar = () => {
@@ -9,11 +12,13 @@ const Navbar = () => {
     <div>
       <div className={styles.navbar}>
         <div>
-          <img src={amazonLongLogo} alt="amazon-logo" />
+          <img className={styles.img} src={amazonLongLogo} alt="amazon-logo" />
         </div>
         <div className={styles.inputBar}>
-          <input type="text" placeholder="electronics,books,movies and more!" />
-          <Button>Search</Button>
+          <input type="text"  />
+          <Button className={styles.button}>
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
+          </Button>
         </div>
         <div className={styles.leftItems}>
           <div className={styles.leftItem}>

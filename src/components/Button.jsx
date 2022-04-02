@@ -3,7 +3,9 @@ import React from "react";
 const Button = (props) => {
   return (
     <div>
-      <button type="button">{props.children}</button>
+      <button className={props.className} type="button">
+        {props.children}
+      </button>
     </div>
   );
 };
