@@ -59,6 +59,57 @@ const Home = () => {
           price="$ 8"
         />
       </div>
+      <div className={styles.footer}>
+        <div className={styles.backToTop}>
+          <p>Back to top</p>
+        </div>
+        <div className={styles.contact}>
+          <div className={styles.contactColumns}>
+            <div>
+              <b>Get to Know Us</b>
+            </div>
+            <div>About Us</div>
+            <div>Careers</div>
+            <div>Press Releases</div>
+            <div>Amazon Cares</div>
+            <div>Get a Smile</div>
+            <div>Amazon Science</div>
+          </div>
+          <div className={styles.contactColumns}>
+            <div>
+              <b>Conncect with Us</b>
+            </div>
+            <div>Facebook</div>
+            <div>Twitter</div>
+            <div>Instagram</div>
+          </div>
+          <div className={styles.contactColumns}>
+            <div>
+              <b>Make Money with Us</b>
+            </div>
+            <div>Sell on Amazon</div>
+            <div>Sell under Amazon Accelerator</div>
+            <div>Amazon Global Selling</div>
+            <div>Become an Affiliate</div>
+            <div>Fullfilment by Amazon</div>
+            <div>Advertise your Products</div>
+            <div>Amazon Pay on Merchants</div>
+          </div>
+          <div className={styles.contactColumns}>
+            <div>
+              <b>Let Us Help You</b>
+            </div>
+            <div>COVID-19 & Amazon</div>
+            <div>Your Account</div>
+            <div>Returns</div>
+            <div>100% Purchase Protection</div>
+            <div>Amazon App Download</div>
+            <div>Help</div>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 };

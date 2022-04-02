@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ProductContainer.module.css";
-import Product1 from "../assests/product1.jpg";
 import Button from "./Button";
 
 const ProductContainer = (props) => {
