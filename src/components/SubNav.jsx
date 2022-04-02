@@ -1,11 +1,16 @@
 import React from "react";
 import styles from "./SubNav.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const SubNav = () => {
   return (
     <div>
       <div className={styles.subnav}>
-        <div className={styles.navItem}><b>All</b></div>
+        <div className={styles.navItem}>
+          <FontAwesomeIcon icon={faBars} />
+          <b> All</b>
+        </div>
         <div className={styles.navItem}>Best Sellers</div>
         <div className={styles.navItem}>Mobiles</div>
         <div className={styles.navItem}>Customer Service</div>
