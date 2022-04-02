@@ -24,14 +24,14 @@ input {
 }
 
 .button {
-  background-color: #FFD36E;
-  height:2.3rem;
+  background-color: #ffd36e;
+  height: 2.3rem;
   width: 3rem;
-  border-radius:0.5rem;
+  border-radius: 0.5rem;
 }
 
-.button:hover{
-    cursor:pointer;
+.button:hover {
+  cursor: pointer;
 }
 
 .leftItems {
@@ -51,4 +51,7 @@ input {
 .img {
   height: 4rem;
   width: 8rem;
+}
+.img:hover {
+  cursor: pointer;
 }
