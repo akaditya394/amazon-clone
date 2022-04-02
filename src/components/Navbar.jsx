@@ -9,11 +9,17 @@ const Navbar = () => {
         <div>
           <img src={amazonLongLogo} alt="amazon-logo" />
         </div>
-        <div>
+        <div className={styles.inputBar}>
           <input type="text" placeholder="electronics,books,movies and more!" />
           <Button>Search</Button>
         </div>
         <div className={styles.leftItems}>
+          <div className={styles.leftItem}>
+            <div>Location</div>
+            <div>
+              <b>India</b>
+            </div>
+          </div>
           <div className={styles.leftItem}>
             <div>Hello, Sign in</div>
             <div>
@@ -27,7 +33,9 @@ const Navbar = () => {
               <b>& Orders</b>
             </div>
           </div>
-          <div className={styles.leftItem}><b>Cart</b></div>
+          <div className={styles.leftItem}>
+            <b>Cart</b>
+          </div>
         </div>
       </div>
     </div>

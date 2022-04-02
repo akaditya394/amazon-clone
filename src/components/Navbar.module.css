@@ -7,8 +7,24 @@
     color:white;
 }
 
+.inputBar{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+input{
+    height:2rem;
+    width:20rem;
+    border-radius: 0.2rem;
+    display: inline;
+    border:none;
+    outline:none;
+}
+
 .leftItems{
-    width:30%;
+    width:50%;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
