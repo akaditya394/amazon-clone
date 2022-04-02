@@ -1,0 +1,27 @@
+.login{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+}
+
+
+.authMain{
+    border: 1px solid #232F3E;
+    margin:10rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    height:12rem;
+    width:20%;
+}
+
+.button{
+    background-color: #ffd36e;
+    height: 2.3rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border:none;
+    outline: none;
+}
