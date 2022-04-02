@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import amazonLongLogo from "../assests/amazon-long-logo-white-removebg-preview.png";
 import Button from "./Button";
 const Navbar = () => {
@@ -34,7 +36,8 @@ const Navbar = () => {
             </div>
           </div>
           <div className={styles.leftItem}>
-            <b>Cart</b>
+            <FontAwesomeIcon icon={faCartShopping} />
+            <b> Cart</b>
           </div>
         </div>
       </div>
