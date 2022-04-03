@@ -8,7 +8,7 @@ import {
 import amazonLongLogo from "../assests/amazon-long-logo-white-removebg-preview.png";
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import { user, auth } from "../firebase";
+import { user} from "../firebase";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {

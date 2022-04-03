@@ -4,7 +4,6 @@ import styles from "./ProductContainer.module.css";
 import Button from "./Button";
 
 const ProductContainer = (props) => {
-  const price = `$${props.price}`;
   const cartCtx = useContext(CartContext);
   const addToCartHandler = () => {
     cartCtx.addItem({
