@@ -91,27 +91,6 @@ const Cart = (props) => {
               onAdd={cartItemAddHandler.bind(null, item)}
             />
           ))}
-          {/* <CartItem
-            src={Product1}
-            description="Samsung Galaxy M21 2021 Edition (Arctic Blue, 4GB RAM, 64GB Storage) |
-          FHD+ sAMOLED | 6 Months Free Screen Replacement for Prime
-          (SM-M215GLBDINS)"
-            price="$200"
-          />
-          <CartItem
-            src={Product1}
-            description="Samsung Galaxy M21 2021 Edition (Arctic Blue, 4GB RAM, 64GB Storage) |
-          FHD+ sAMOLED | 6 Months Free Screen Replacement for Prime
-          (SM-M215GLBDINS)"
-            price="$200"
-          />
-          <CartItem
-            src={Product1}
-            description="Samsung Galaxy M21 2021 Edition (Arctic Blue, 4GB RAM, 64GB Storage) |
-          FHD+ sAMOLED | 6 Months Free Screen Replacement for Prime
-          (SM-M215GLBDINS)"
-            price="$200"
-          /> */}
         </div>
         <TotalValue allTotalAmount={totalAmount} />
       </div>

@@ -1,25 +1,30 @@
-.main{
-    height:20rem;
-    width:20rem;
-    display:flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items:center;
-    color:rgb(3, 54, 71);
-    margin: 0 0 3rem 0;
-    text-align: center;
+.main {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(3, 54, 71);
+  margin: 0 0 3rem 0;
+  text-align: center;
 }
 
-.img{
-    height:10rem;
-    width: 10rem;
+.img {
+  height: 10rem;
+  width: 10rem;
 }
 
-.button{
-    background-color: #ffd36e;
-    height: 2.3rem;
-    width: 3rem;
-    border-radius: 0.5rem;
-    outline: none;
-    border: none;
+.button {
+  background-color: #ffd36e;
+  height: 2.3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #ffc234;
 }
