@@ -12,8 +12,9 @@ import Product4 from "../assests/product4.jpg";
 import Product5 from "../assests/product5.jpg";
 import Product6 from "../assests/product6.jpg";
 
-
 const Home = () => {
+
+
   return (
     <div>
       <Navbar />
@@ -26,19 +27,22 @@ const Home = () => {
           FHD+ sAMOLED | 6 Months Free Screen Replacement for Prime
           (SM-M215GLBDINS)"
           rating="⭐⭐⭐⭐ 5493"
-          price="$ 200"
+          price={200}
+          id="1"
         />
         <ProductContainer
           src={Product2}
           description="MacBook Air (M1,2020)"
           rating="⭐⭐⭐⭐ 8076"
-          price="$ 999"
+          price={999}
+          id="2"
         />
         <ProductContainer
           src={Product3}
           description="Sony Bravia 80 cm (32 inches) HD Ready Smart LED TV 32W6103 (Black) (2021 Model)"
           rating="⭐⭐⭐ 10,016"
-          price="$ 320"
+          price={320}
+          id="3"
         />
       </div>
       <div className={styles.products}>
@@ -46,19 +50,21 @@ const Home = () => {
           src={Product4}
           description="Skybags New Neon 13 30 L Backpack (Blue), free size (BPNNE13HBLU)"
           rating="⭐⭐⭐⭐ 1,099"
-          price="$ 50"
+          price={50}
         />
         <ProductContainer
           src={Product5}
           description="Nike Women's WMNS Gts '16 Txt Black/White Running Shoe-9 B(M) US UK (840306-010)"
           rating="⭐⭐⭐⭐ 576"
-          price="$ 15"
+          price={15}
+          id="5"
         />
         <ProductContainer
           src={Product6}
           description="Sapiens: A Brief History of Humankind Paperback | 11 June 2015"
           rating="⭐⭐⭐⭐ 42,186"
-          price="$ 8"
+          price={8}
+          id="6"
         />
       </div>
       <Footer />

@@ -1,16 +1,19 @@
 import React from "react";
 import styles from "./TotalValue.module.css";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
-function TotalValue() {
+function TotalValue(props) {
   return (
     <div className={styles.total}>
-      <div>Cost: $200</div>
+      <div></div>
       <div>
-        <b>Total Cost: $800</b>
+        <b>{props.allTotalAmount}</b>
       </div>
       <div>
-        <Button className={styles.button}>Buy Now</Button>
+        <Link to="/thankyou">
+          <Button className={styles.button}>Buy Now</Button>
+        </Link>
       </div>
     </div>
   );
