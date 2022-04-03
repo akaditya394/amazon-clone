@@ -12,6 +12,7 @@ import Product4 from "../assests/product4.jpg";
 import Product5 from "../assests/product5.jpg";
 import Product6 from "../assests/product6.jpg";
 
+
 const Home = () => {
   return (
     <div>
