@@ -1,0 +1,28 @@
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0 2rem 2rem;
+}
+
+.stock {
+  color: green;
+}
+.fba{
+    color:#232F3E;
+}
+
+.img {
+  height: 12rem;
+  width: 12rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
