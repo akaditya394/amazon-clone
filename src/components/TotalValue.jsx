@@ -10,7 +10,7 @@ function TotalValue() {
         <b>Total Cost: $800</b>
       </div>
       <div>
-        <Button>Buy Now</Button>
+        <Button className={styles.button}>Buy Now</Button>
       </div>
     </div>
   );
