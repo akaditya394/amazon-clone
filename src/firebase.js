@@ -17,6 +17,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth();
+var user = auth.currentUser;
+
 const GoogleAuth = () => {
   signInWithPopup(auth, provider)
     .then((result) => {
@@ -24,8 +26,8 @@ const GoogleAuth = () => {
       const credential = GoogleAuthProvider.credentialFromResult(result);
       const token = credential.accessToken;
       // The signed-in user info.
-      const user = result.user;
-      // ...
+      user = result.user;
+      console.log(user.displayName);
     })
     .catch((error) => {
       // Handle Errors here.
@@ -39,4 +41,17 @@ const GoogleAuth = () => {
     });
 };
 
-export default  GoogleAuth ;
+// if (user !== null) {
+//   // The user object has basic properties such as display name, email, etc.
+//   const displayName = user.displayName;
+//   const email = user.email;
+//   const photoURL = user.photoURL;
+//   const emailVerified = user.emailVerified;
+
+//   // The user's ID, unique to the Firebase project. Do NOT use
+//   // this value to authenticate with your backend server, if
+//   // you have one. Use User.getToken() instead.
+//   const uid = user.uid;
+
+export default GoogleAuth;
+export { user, auth };

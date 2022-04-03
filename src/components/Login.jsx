@@ -6,6 +6,7 @@ import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import GoogleAuth from "../firebase";
 
 const Login = () => {
+
   return (
     <div className={styles.login}>
       <div className={styles.authMain}>
@@ -14,7 +15,7 @@ const Login = () => {
           <span> Login with Google</span>
         </Button>
         <Button className={styles.button} onClick={GoogleAuth}>
-          <FontAwesomeIcon icon={faGoogle}  />
+          <FontAwesomeIcon icon={faGoogle} />
           <span> Sign up with Google</span>
         </Button>
       </div>

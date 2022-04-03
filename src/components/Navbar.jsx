@@ -8,8 +8,16 @@ import {
 import amazonLongLogo from "../assests/amazon-long-logo-white-removebg-preview.png";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import { user, auth } from "../firebase";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
+  const [profile, setProfile] = useState(user);
+
+  useEffect(() => {
+    setProfile(user);
+  }, [profile]);
+
   return (
     <div>
       <div className={styles.navbar}>
@@ -36,7 +44,7 @@ const Navbar = () => {
             </div>
           </div>
           <Link to="/auth" className={styles.leftItem}>
-            <div>Hello, Sign in</div>
+            <div>{user == null ? "Hello, Sign In" : profile.displayName}</div>
             <div>
               <b>Accounts & Lists</b>
             </div>
